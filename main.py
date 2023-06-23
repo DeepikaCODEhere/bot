@@ -25,7 +25,7 @@ def check_all_messages(message):
     response('thank you !',['i', 'love','your','responses'],required_words=['love','ypur','responses'])
     response(long.R_EATING,['what', 'you', 'eat'],required_words=['you','eat'])
     response('My name is deepika ',['what','is','your','name'],required_words=['what', 'name'])
-    response('surely!,  that is why your are using me 😉',['you','are','useless'],required_words=['you','useless'])
+    response('I am sorry  ',['you','are','useless'],required_words=['you','useless']) 
 
     best_match=max(highest_prob_list,key=highest_prob_list.get)
 
